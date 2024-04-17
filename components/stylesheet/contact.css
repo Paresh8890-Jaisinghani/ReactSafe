@@ -1,0 +1,117 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  color: white;
+  width: 100%;
+  padding: 16px;
+  border-bottom: 3px solid white;
+  background-color:rgba(209, 192, 192,0.2);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  min-height: 40px;
+}
+
+.heading{
+    text-decoration: underline;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+input[type=number] {
+
+  color: white;
+  background-color:rgba(209, 192, 192,0.2);
+    width: 100%;
+    padding: 16px;
+    border-bottom: 3px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+
+input[type=submit] {
+
+  background-color: #274bc1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+#subject{
+    height: 100px;
+}
+
+input[type=submit]:hover {
+  background-color: #457aa0;
+  transition: .5s ease;
+}
+
+.contact{
+  color: white;
+  /* height: 100vh; */
+  /* color: white;
+  background-image: url('../images/contact.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #cccccc;
+  text-align: center;
+  font-size: 20px; */
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 22%, 0.651);
+  padding: 20px;
+  margin: 0px  80px;
+}
+
+::placeholder {
+  font-size: 18px;
+  color: rgba(255, 240, 240, 0.699);
+  opacity: 1; /* Firefox */
+}
+
+select{
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border-bottom: 3px solid white;
+  background-color:rgba(209, 192, 192,0.2);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  min-height: 40px;
+}
+
+select option { color: black; }
+select option:first-child{
+  color: rgb(24, 24, 24);
+}
+
+@media (max-width:800px){
+.container{
+  width: 70%;
+}
+.heading{
+  text-align: center;
+  
+}
+}
